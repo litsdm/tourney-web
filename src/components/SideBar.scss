@@ -1,0 +1,35 @@
+@import "~@globalStyles";
+
+.SideBar {
+  align-items: center;
+  background-color: $darkest-grey;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 72px;
+  overflow-y: auto;
+}
+
+.Link {
+  background-color: $medium-grey;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 12px;
+  padding: 8px;
+  transition: 0.2s all ease;
+
+  &:hover {
+    background-color: $light-grey;
+    border-radius: 25%;
+    color: #fff;
+  }
+
+  &.active {
+    background-color: $as-blue;
+    border-radius: 25%;
+    color: #fff;
+  }
+}

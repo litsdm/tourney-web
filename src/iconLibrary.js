@@ -5,7 +5,9 @@ import {
   faTrophy,
   faChartBar,
   faSignature,
-  faCog
+  faCog,
+  faSignal,
+  faAngleDown
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -14,5 +16,7 @@ library.add(
   faTrophy,
   faChartBar,
   faSignature,
-  faCog
+  faCog,
+  faSignal,
+  faAngleDown
 );

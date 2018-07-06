@@ -1,0 +1,76 @@
+@import "~@globalStyles";
+
+.TournamentContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: $u * 4;
+}
+
+.Tournament {
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: $u;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $u * 4;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  width: $u * 59;
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+}
+
+.TournamentImage {
+  border-top-right-radius: $u;
+  border-top-left-radius: $u;
+  height: $u * 32;
+  width: 100%
+}
+
+.Info {
+  background-color: #2F3136;
+  border-bottom-left-radius: $u;
+  border-bottom-right-radius: $u;
+  padding: $u * 2;
+  max-width: 330px;
+  width: 100%;
+}
+
+.BaseInfo {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+
+.GameLogo {
+  border-radius: $u;
+  height: $u * 6;
+  margin-right: $u * 2;
+  width: $u * 6;
+}
+
+.TextInfo {
+  width: 100%;
+}
+
+.BotInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $u;
+
+  span {
+    display: flex;
+  }
+
+  p {
+    font-size: $u * 2;
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+}
+
+.TourneyDate {
+  margin-right: $u * 2;
+}

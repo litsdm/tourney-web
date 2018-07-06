@@ -3,12 +3,13 @@
 .Container {
   padding: $u * 8;
   display: flex;
+  flex-direction: column;
 }
 
 .TopPlayers {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
 }

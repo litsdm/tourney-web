@@ -10,7 +10,7 @@ const Home = () => (
     <div className={styles.TopPlayers}>
       <Player username="Leetos" score={5000} type="wins" />
       <Player username="Leetos" score={5000} type="earnings" />
-      <Player username="Leetos" score={5000} type="score" />
+      <Player username="Leetos" score={5000} type="donor" />
     </div>
     <Category title="Popular Tournaments">
       <Tournament

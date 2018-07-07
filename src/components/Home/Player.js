@@ -6,19 +6,19 @@ import styles from './Player.scss';
 const categories = {
   wins: 'Most Wins',
   earnings: 'Highest Earnings',
-  score: 'Best Score'
+  donor: 'Top Donor'
 }
 
 const colors = {
   wins: ['#FFC107', '#FFA000'],
   earnings: ['#2091f3', '#1976D2'],
-  score: ['#607D8B', '#455A64']
+  donor: ['#4CAF50', '#388E3C']
 }
 
 const preScore = {
   wins: 'W ',
   earnings: '$',
-  score: ''
+  donor: '$'
 }
 
 const Player = ({ username, profilePic, score, type, title }) => (

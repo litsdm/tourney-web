@@ -21,7 +21,7 @@ const Tournament = ({ image, name, logo }) => (
         <div className={styles.Prize}>
           <FontAwesomeIcon icon="trophy" />
           <p>
-            $250
+            $2,500
           </p>
         </div>
         <div className={styles.BaseInfo}>
@@ -44,6 +44,32 @@ const Tournament = ({ image, name, logo }) => (
               </p>
             </div>
           </div>
+        </div>
+        <div className={styles.AdditionalInfo}>
+          <span>
+            <p className={styles.Title}>
+              Entry Fee
+            </p>
+            <p className={styles.Value}>
+              $1
+            </p>
+          </span>
+          <span>
+            <p className={styles.Title}>
+              Participants
+            </p>
+            <p className={styles.Value}>
+              50 / 64
+            </p>
+          </span>
+          <span>
+            <p className={styles.Title}>
+              Donators
+            </p>
+            <p className={styles.Value}>
+              10
+            </p>
+          </span>
         </div>
       </div>
     </div>

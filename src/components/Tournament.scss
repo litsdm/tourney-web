@@ -25,7 +25,8 @@
       margin-top: -54px;
     }
 
-    .Overlay {
+    .Overlay,
+    .AdditionalInfo {
       display: flex;
     }
   }
@@ -170,4 +171,27 @@
     border-color: $as-blue;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
   }
+}
+
+.AdditionalInfo {
+  display: none;
+  justify-content: space-between;
+  margin-top: $u * 2;
+
+  span {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Title {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.4;
+  text-transform: uppercase;
+}
+
+.Value {
+  font-size: 14px;
 }

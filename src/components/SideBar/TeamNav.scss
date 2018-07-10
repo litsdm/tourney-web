@@ -11,9 +11,10 @@
   border: 1px dashed #535559;
   border-radius: 50%;
   color: #535559;
-  height: $u * 6;
+  height: $u * 7;
+  min-height: $u * 7;
   transition: border-color .25s ease,color .25s ease;
-  width: $u * 6;
+  width: $u * 7;
 
   svg {
     font-size: 1.15rem;
@@ -28,6 +29,13 @@
 .ScrollWrap {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;  /* optional: just make scrollbar invisible */
+  }
 }
 
 .Team {
@@ -35,10 +43,11 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 50%;
-  height: $u * 6;
+  height: $u * 7;
   margin-bottom: $u * 2;
+  min-height: $u * 7;
   transition: 0.2s all ease;
-  width: $u * 6;
+  width: $u * 7;
 
   &:hover {
     border-radius: 15%;

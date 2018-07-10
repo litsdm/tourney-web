@@ -9,16 +9,4 @@
 
 .TourneyGrid {
   display: flex;
-
-  .TournamentContainer {
-    flex: 1 1 30%;
-  }
-
-  .Tournament {
-    width: $u * 50;
-  }
-
-  .ImgContainer img {
-    height: $u * 27;
-  }
 }

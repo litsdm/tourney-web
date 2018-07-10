@@ -53,6 +53,7 @@
 
 .BotLink {
   color: #ccc;
+  margin-bottom: 24px;
 
   &:hover {
     color: #fff;
@@ -111,6 +112,5 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-bottom: 24px;
   width: 100%;
 }

@@ -32,6 +32,9 @@ const SideBar = () => (
         <Link to="/settings" className={styles.BotLink}>
           <FontAwesomeIcon icon="cog" />
         </Link>
+        <Link to="/feedback" className={styles.BotLink}>
+          <FontAwesomeIcon icon="bug" />
+        </Link>
       </div>
     </div>
   </div>

@@ -7,7 +7,9 @@ import {
   faSignature,
   faCog,
   faSignal,
-  faAngleDown
+  faAngleDown,
+  faBug,
+  faInfoCircle
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -18,5 +20,7 @@ library.add(
   faSignature,
   faCog,
   faSignal,
-  faAngleDown
+  faAngleDown,
+  faBug,
+  faInfoCircle
 );

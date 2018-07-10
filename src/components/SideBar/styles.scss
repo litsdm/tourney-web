@@ -1,0 +1,46 @@
+@import "~@globalStyles";
+
+.SideBar {
+  align-items: center;
+  background-color: $dark-grey;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: $u * 9;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.Logo {
+  align-items: center;
+  box-shadow: 0 1px 4px #222;
+  display: flex;
+  justify-content: center;
+  height: 54px;
+  min-height: 54px;
+  width: 100%;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.Nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Divider {
+  background-color: #444;
+  height: 1px;
+  margin: 24px 0;
+  width: 65%;
+}

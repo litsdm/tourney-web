@@ -1,0 +1,26 @@
+@import '~@globalStyles';
+
+.TeamNav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Add {
+  border: 1px dashed #535559;
+  border-radius: 50%;
+  color: #535559;
+  height: $u * 6;
+  transition: border-color .25s ease,color .25s ease;
+  width: $u * 6;
+
+  svg {
+    font-size: 1.15rem;
+  }
+
+  &:hover {
+    border-color: hsla(0,0%,100%,.75);
+    color: hsla(0,0%,100%,.75);
+  }
+}

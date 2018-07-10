@@ -1,0 +1,17 @@
+@import '~@globalStyles';
+
+.BotNav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Link {
+  color: #ccc;
+  margin-bottom: $u * 4;
+
+  &:hover {
+    color: #fff;
+  }
+}

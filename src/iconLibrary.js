@@ -9,7 +9,8 @@ import {
   faSignal,
   faAngleDown,
   faBug,
-  faInfoCircle
+  faInfoCircle,
+  faPlus
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -22,5 +23,6 @@ library.add(
   faSignal,
   faAngleDown,
   faBug,
-  faInfoCircle
+  faInfoCircle,
+  faPlus
 );
